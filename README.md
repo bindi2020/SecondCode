@@ -1,0 +1,2 @@
+# SecondCode
+Simple Array Sum
