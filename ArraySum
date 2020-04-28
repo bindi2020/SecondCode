@@ -1,0 +1,28 @@
+//Code in Java
+
+import java.io.*;
+import java.util.*;
+
+class Solution {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+    //System.out.println("Size of Array");
+                int N = sc.nextInt();
+		int[] ar = new int[N];
+		int sum=0;
+          
+          //System.out.println("Enter the elements of Array");
+		for(int i=0; i<N; i++){
+		    ar[i] = sc.nextInt();
+		}
+		
+		for(int i=0; i<ar.length; i++){
+		    sum = sum + ar[i];
+		}
+          
+          //System.out.println("Resultant output of the given code");
+		System.out.println(sum);
+		sc.close();
+	}
+}
